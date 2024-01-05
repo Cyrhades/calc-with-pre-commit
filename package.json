@@ -8,13 +8,15 @@
     "test": "mocha --recursive --exit"
   },
   "pre-commit": {
-     "run": ["test"]
+    "run": [
+      "test"
+    ]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^10.2.0",
-    "precommit": "^1.2.2"
+    "pre-commit": "^1.2.2"
   }
 }
