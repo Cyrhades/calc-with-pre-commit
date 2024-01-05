@@ -8,7 +8,7 @@
     "test": "mocha --recursive --exit"
   },
   "pre-commit": {
-    "run": ["test"]
+     "run": ["test"]
   },
   "keywords": [],
   "author": "",
