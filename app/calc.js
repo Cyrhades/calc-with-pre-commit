@@ -6,6 +6,7 @@ export default class {
         
         return arg1+arg2+sum;
     }
+    
 
     soustraction(arg1, arg2, ...args) {
         let sum = 0;
